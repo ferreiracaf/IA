@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "vector": "cpp",
+        "string": "cpp",
+        "typeinfo": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "iosfwd": "cpp"
+    },
+    "C_Cpp.dimInactiveRegions": false
+}
