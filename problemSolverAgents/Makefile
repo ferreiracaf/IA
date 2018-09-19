@@ -76,4 +76,4 @@ $(BUILD_PATH)/%.o: $(SRC_PATH)/%.$(SRC_EXT)
 
 .PHONY: run
 run:
-	./$(BIN_NAME)
+	@./$(BIN_NAME) < entries.txt

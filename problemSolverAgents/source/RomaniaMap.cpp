@@ -1,6 +1,3 @@
-#ifndef ROMANIAMAP_H
-#define ROMANIAMAP_H
-
 #include "RomaniaMap.h"
 
 vector<State*>* setupRomaniaMap(){ 
@@ -150,5 +147,3 @@ void destroyRomaniaMap(vector<State*>* vec){
     }
     delete vec;
 }
-
-#endif //ROMANIAMAP_H

@@ -1,3 +1,6 @@
+#ifndef ROMANIAMAP_H
+#define ROMANIAMAP_H
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -9,3 +12,5 @@ using namespace std;
 
 vector<State*>* setupRomaniaMap();
 void destroyRomaniaMap(vector<State*>* vec);
+
+#endif //ROMANIAMAP_H
